@@ -1,0 +1,24 @@
+docker-compose up 으로 하면 안되고 
+docker-compose verison
+
+docker compose up 으로 해야 실행된다.
+docker compose version 
+
+## 도커 컴포즈 백그라운드 실행 법. 
+docker compose up -d
+
+##디비 더미 데이터
+```sql
+USE rootdb;
+
+create table person(
+
+id int primary key,
+name varchar(100)
+
+);
+
+INSERT INTO person(id,NAME) VALUES(1,"names");
+
+SELECT * FROM person;
+```
