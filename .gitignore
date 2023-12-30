@@ -1,1 +1,3 @@
-./ex08/docker-test-db/store
+*.dblwr
+
+/ex08/docker-test-db/store
