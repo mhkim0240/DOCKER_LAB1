@@ -1,11 +1,11 @@
 import '../App.css';
 
-function Card() {
+function Card(props) {
+  let product = props.product;
   return (
     <div className='product-card'>
-        Product1
+      {product.id} : {product.name}, {product.price}Won
     </div>
-
   );
 }
 

@@ -19,6 +19,11 @@ public class ProductController {
 
     private final ProductRepository productRepository;
 
+    @GetMapping("/")
+    public ResponseEntity<?> main() {
+        return ResponseEntity.ok().body("main8080");
+    }
+ 
     @GetMapping("/products")
     public ResponseEntity<?> products() {
         List<Product> products = productRepository.findAll();

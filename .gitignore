@@ -1,4 +1,4 @@
 *.dblwr
 
-*/store/
+/ex09/db/store
 /ex08/docker-test-db/store
